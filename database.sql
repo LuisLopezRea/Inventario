@@ -1,0 +1,1 @@
+CREATE DATABASE IF NOT EXISTS printer_inventory; USE printer_inventory; CREATE TABLE users(id INT AUTO_INCREMENT PRIMARY KEY, username VARCHAR(50), password VARCHAR(255), role VARCHAR(20));

@@ -1,0 +1,2 @@
+inventory_id,brand,model,serial_number,ip_address,location,observations
+INV001,Zebra,ZT411,SN123,10.0.0.1,Warehouse,OK

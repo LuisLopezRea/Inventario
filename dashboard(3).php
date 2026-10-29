@@ -1,0 +1,1 @@
+<?php include "config.php"; if(!isset($_SESSION["user"])) die("Login required"); ?><html><body><h1>Printer Inventory Core</h1><p>Welcome <?=$_SESSION["user"]?></p><a href="logout.php">Logout</a></body></html>

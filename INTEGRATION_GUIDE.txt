@@ -1,0 +1,5 @@
+1. Importar install_audit.sql
+2. Copiar audit.php y audit_functions.php al proyecto.
+3. Incluir: include "audit_functions.php";
+4. Despues de guardar una impresora: writeAudit($conn,$_SESSION['user'],'UPDATE',$inventory,'Registro modificado');
+5. Agregar enlace a audit.php en el menu.

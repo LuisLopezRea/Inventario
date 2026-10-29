@@ -1,0 +1,1 @@
+<?php function writeAudit($conn,$user,$action,$inventory,$details){ $s=$conn->prepare("INSERT INTO audit_log(user_name,action_type,inventory_id,details) VALUES (?,?,?,?)"); $s->bind_param("ssss",$user,$action,$inventory,$details); $s->execute(); } ?>
